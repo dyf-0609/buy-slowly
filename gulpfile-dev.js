@@ -12,7 +12,7 @@ task('delDist',async ()=>{
 
 // 处理图片
 task('image', async ()=>{
-  src('./image/*.*')
+  src('./image/**/*.*')
   .pipe(dest('./dist/image'))
   .pipe(load.connect.reload())
 })
@@ -41,7 +41,7 @@ task('html', async ()=>{
 
 // 监听文件变化
 task('watch',async ()=>{
-  watch('./image/*.*',series('image'));
+  watch('./image/**/*.*',series('image'));
   watch('./sass/*.scss',series('sass'));
   watch('./script/*.js',series('script'));
   watch('./pages/*.html',series('html'));
