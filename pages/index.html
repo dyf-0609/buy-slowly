@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/swiper.css">
 </head>
 
 <body>
@@ -21,12 +22,24 @@
             <ul class="right">
                 <li>
                     <div class="r1">
-                        <a href=""><img src="../image/phone.png" alt="" class="show">
+                        <a href="" class="phone"><img src="../image/phone.png" alt="" class="show">
                             <img src="../image/phone (1).png" alt="" class="show1">
-                            手机慢慢买</a>
+                            手机慢慢买
+                        </a>
                         <img src="../image/xiajiantou.png" alt="" class="xia">
                         <img src="../image/shangjiantou.png" alt="" class="shang">
+                        <div class="sjm">
+                            <p>扫描二维码下载客户端</p>
+                            <div class="img-l"> 
+                                <img src="../image/ma.jpg" alt="">
+                            </div>
+                            <div class="sjm-r">
+                                <p>慢慢买客户端</p>
+                                <img src="../image/nav_app_icon.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
+
                 </li>
                 <li><span></span></li>
                 <li>
@@ -34,11 +47,15 @@
                         <a href="">我的慢慢买</a>
                         <img src="../image/xiajiantou.png" alt="" class="xia">
                         <img src="../image/shangjiantou.png" alt="" class="shang">
+                        <ul class="list">
+                            <li><a href="">我的收藏</a></li>
+                            <li><a href="">我的积分</a></li>
+                        </ul>
                     </div>
                 </li>
                 <li><span></span></li>
                 <li>
-                    <div class="r1">
+                    <div class="r2">
                         <a href="">新手帮助</a>
                     </div>
                 </li>
@@ -125,7 +142,8 @@
                 <li>国内折扣</li>
                 <li>白菜价</li>
                 <li>历史价格查询</li>
-                <li class="more">更多<img src="../image/icon/xiajiantou.png" alt="">
+                <li class="more">更多<img src="../image/icon/xiajiantou.png" alt="" class="xia">
+                    <img src="../image/icon/shang.png" alt="" class="shang">
                     <ul class="more-c">
                         <li>商城导航</li>
                         <li>降价监控</li>
@@ -145,21 +163,523 @@
     <div class="main">
         <div class="main-con">
             <div class="l-slide">
-                <div class="sub-nav"></div>
+                <div class="sub-nav">
+                    <ul>
+                        <li>
+                            <img src="../image/icon/xiyiji.png" alt="" class="tubiao">大家电、生活配件<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao1 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">扫地机器人</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空气净化器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">蒸汽拖把</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电风扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">加湿器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">干衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">浴霸/排气扇</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">冰箱</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">取暖器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">饮水机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">吸尘器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">净水设备</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">除湿机</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/diannao.png" alt="" class="tubiao">电脑、配件<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao2 biao" >
+                                <ul>
+                                    <li><img src="../image/icon/diannao.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">扫地机器人</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">空气净化器</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/diannao.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">空调</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">电风扇</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">加湿器</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/diannao.png" alt="">冰箱</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">取暖器</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">饮水机</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">吸尘器</li>
+                                    <li><img src="../image/icon/diannao.png" alt="">净水设备</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/shouji.png" alt="" class="tubiao">手机数码<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao3 biao">
+                                <ul>
+                                    <li><img src="../image/icon/shouji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">挂烫机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/shouji.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">电风扇</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/shouji.png" alt="">冰箱</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">取暖器</li>
+                                    <li><img src="../image/icon/shouji.png" alt="">饮水机</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/sheying.png" alt="" class="tubiao">摄影、摄像<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao4 biao">
+                                <ul>
+                                    <li><img src="../image/icon/sheying.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/sheying.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/sheying.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/sheying.png" alt="">挂烫机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/sheying.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/sheying.png" alt="">空调</li>
+                                    <li><img src="../image/icon/sheying.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/sheying.png" alt="">电风扇</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/dayinji.png" alt="" class="tubiao">办公网络<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao5 biao">
+                                <ul>
+                                    <li><img src="../image/icon/dayinji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">挂烫机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/dayinji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">挂烫机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/dayinji.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/dayinji.png" alt="">电风扇</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/jiaoyu.png" alt="" class="tubiao">电子教育<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao6 biao">
+                                <ul>
+                                    <li><img src="../image/icon/jiaoyu.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/jiaoyu.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/jiaoyu.png" alt="">空调扇</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/jiaoyu.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/jiaoyu.png" alt="">空调</li>
+                                    <li><img src="../image/icon/jiaoyu.png" alt="">热水器</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/chuwei.png" alt="" class="tubiao">厨卫电器<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao7 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">扫地机器人</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空气净化器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">蒸汽拖把</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电风扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">加湿器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">干衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">浴霸/排气扇</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">冰箱</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">取暖器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">饮水机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">吸尘器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">净水设备</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">除湿机</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/chuifengji.png" alt="" class="tubiao">个护、健康电器<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao8 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">扫地机器人</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电风扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电熨斗</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">加湿器</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">冰箱</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">取暖器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">饮水机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">吸尘器</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/yinxiang.png" alt="" class="tubiao">影音视听<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao9 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">挂烫机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电风扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电熨斗</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/zhangpeng.png" alt="" class="tubiao">户外运动<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao10 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">挂烫机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">扫地机器人</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">热水器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电风扇</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">电熨斗</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">冰箱</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">取暖器</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">饮水机</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">吸尘器</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/naiping.png" alt="" class="tubiao">母婴玩具<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao11 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../image/icon/qiche.png" alt="" class="tubiao">汽车用品<img src="../image/icon/you.png" alt="" class="you">
+                            <div class="liebiao12 biao">
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">平板电视</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">洗衣机</li>
+                                </ul>
+                                <ul>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">空调</li>
+                                    <li><img src="../image/icon/xiyiji.png" alt="">热水器</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 国内折扣小时排行榜-->
+                <div class="hour-list">
+                    <div class="hd">
+                        国内折扣小时排行榜 <img src="../image/icon/jiantou.png" alt="">
+                    </div>
+                    <div class="bd">
+                        <ul class="goods">
+                            <!-- <li>
+                                <img src="../image/hour1.jpg" alt="" class="pic">
+                                <div class="info">
+                                    <a href="" class="tit">15日0点：费列罗巧克力礼盒装</a>
+                                    <div class="price">48元包邮（需用券）</div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- 白菜价小时排行榜 -->
+                <div class="bc-list">
+                    <div class="hd">
+                        白菜价小时排行榜  <img src="../image/icon/jiantou.png" alt="">
+                    </div>
+                    <div class="bd">
+                        <ul class="bc-goods">
+                            <!-- <li>
+                                <img src="../image/bc1.jpg" alt="" class="pic">
+                                <div class="info">
+                                    <a href="" class="tit">【3刷头+电池】全自动防水软毛电动牙刷</a>
+                                    <div class="price">¥7.90</div>
+                                    <div class="msg">已领51128</div>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="r-slide"></div>
+            <div class="r-slide">
+                <div class="main1">
+                    <!-- 轮播图 -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="../image/lunbo1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="../image/lunbo2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="../image/lunbo3.png" alt=""></div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="swiper-pagination"></div>
+                    
+                    <!-- 如果需要导航按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    
+                    <!-- 如果需要滚动条 -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+                <!-- 个人信息 -->
+                <div class="user">
+                    <div class="t">
+                        <div class="tu">
+                            <img src="../image/icon/ren.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <p>HI, 欢迎来到慢慢买！</p>
+                            <p><a href="">登录</a><a href="">注册</a></p>
+                        </div>
+                    </div>
+                    <div class="b">
+                        <a href="" class="o">
+                            <strong>--</strong><br>收藏
+                        </a>
+                        <a href="">
+                            <strong>--</strong><br>积分
+                        </a>
+                        <a href="">
+                            <strong>--</strong><br>消息
+                        </a>
+                    </div> 
+                </div>
+                </div>
+                <!-- 排行榜 -->
+                <div class="phb">
+                    <div class="hd">
+                        <span class="tit">排行榜</span>
+                        <ul>
+                            <li class="on">好价</li>
+                            <li>白菜</li>
+                            <li>热评</li>
+                        </ul>
+                        <img src="../image/icon/jiantou.png" alt="">
+                    </div>
+                    <div class="bd">
+                        <div class="goods-box">
+                            <div class="temp-wrap">
+                                <ul class="phb-goods">
+                                    <!-- <li>
+                                        <div class="pic">
+                                            <img src="../image/phb1.jpg" alt="">
+                                        </div>
+                                        <div class="tags">
+                                            <a href="" class="ly"><img  src="../image/icon/liuyan.png" alt="">13</a>
+                                            <a href="" class="zan"><img  src="../image/icon/zan.png" alt="">42</a>
+                                            <a href="" class="buzan"><img  src="../image/icon/buzan.png" alt="">0</a>
+                                        </div>
+                                        <div class="tit">8月15日 京东商城 京豆领取汇总</div>
+                                        <div class="subtit">京豆数量有限</div>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 今日超值推荐 -->
+                <div class="recommend">
+                    <div class="hd">
+                        <span class="tit">今日超值推荐</span>
+                        <ul>
+                            <li class="on">全部</li>
+                            <li>京东</li>
+                            <li>天猫精选</li>
+                            <li>苏宁</li>
+                            <li>小时排行榜</li>
+                            <li>京东神券</li>
+                            <li>促销活动</li>
+                            <li>手机</li>
+                            <li>数码</li>
+                            <li>美食</li>
+                        </ul>
+                        <img src="../image/icon/jiantou.png" alt="">
+                    </div>
+                    <div class="bd">
+                        <ul class="tj-goods">
+                            <!-- <li>
+                                <div class="pic">
+                                    <img src="../image/rcd1.jpg" alt="">
+                                </div>
+                                <div class="tags">
+                                    <a href="" class="ly"><img  src="../image/icon/liuyan.png" alt="">0</a>
+                                    <a href="" class="zan"><img  src="../image/icon/zan.png" alt="">0</a>
+                                    <a href="" class="buzan"><img  src="../image/icon/buzan.png" alt="">0</a>
+                                </div>
+                                <div class="tit">
+                                    Perrier巴黎水 西柚味气泡水 天然矿泉水 250ml*30罐 *2件 凑单品
+                                </div>
+                                <div class="subtit">
+                                    145.7元包邮（双重优惠，合69.07元/件）
+                                </div>
+                                <div class="info">
+                                    <span class="mall">京东商城</span>
+                                    <span class="date">08-15 12:46</span>
+                                </div>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="rcd-more">
+                        <a href="">更多优惠信息 >></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <!-- footer -->
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="foot-nav">
+            <div class="foot-nav-con">
+                <div class="foot-app">
+                    <div class="app-pic">
+                        <img class="rwm" src="../image/ma.jpg" alt="">
+                        <p>扫码下载慢慢买APP</p>
+                        <img class="appban" src="../image/nav_app_icon.jpg" alt="">
+                    </div>
+                    <div class="txt">全网比价  省钱专家</div>
+                </div>
+                <div class="foot-guide">
+                    <div class="g-tit">何为慢慢买</div>
+                    <div class="g-con">
+                        慢慢买是网购的<span>"比价神器"</span>，10年来我们专注为用户推荐高性价比商品，并开发了全网比价、查历史价格等购物助手，力求帮助消费者实现信息对称，做出最优购物决策。
+                    </div>
+                    <div class="g-foot">
+                        合作商城：
+                        <a href="">京东</a>
+                        <a href="">天猫</a>
+                        <a href="">苏宁</a>
+                        <a href="">亚马逊</a>
+                        <a href="">国美</a>
+                        <a href="">考拉</a>
+                        <a href="">拼多多</a>
+                        <a href="">唯品会</a>
+                        <a href="">网易严选</a>
+                        <a href="">中粮我买</a>
+                        <a href="" class="g-more">更多»</a>
+                    </div>
+                </div>
+                <div class="foot-work">
+                    <div class="w-tit">商务合作</div>
+                    <p>比价API合作»</p>
+                    <p>电商活动报名»</p>
+                    <p>市场洞察»</p>
+                    <p>联系我们»</p>
+                </div>
+            </div>
+        </div>
+        <div class="foot-copyright">
+            <div class="fc-con">
+                © 2020
+                <a href="">慢慢买</a>
+                版权所有
+                <em>|</em>
+                <a href="">关于我们</a>
+                <em>|</em>
+                <a href="">Wap版</a>
+                <em>|</em>
+                <a href="">比价网</a>
+                <em>|</em>
+                <a href="">友情链接</a>
+                <em>|</em>
+                <a href="">品牌大全</a>
+                <em>|</em>
+                <a href="">最新商品</a>
+                <em>|</em>
+                <a href="">地图</a>
+                <em>|</em>
+                <a href="">浙ICP备10201740号</a>
+                <em>|</em>
+                <a href=""> 浙公网安备33010802010083号</a>
+                <em>|</em>
+                <a href="">营业执照</a>
+            </div>
+        </div>
+    </div>
 
-    <!-- bottom -->
-    <div class="bottom"></div>
+    <!-- 返回顶部 -->
+    <div class="com-back">
+        <div class="cb-top">
+            <img src="../image/icon/top.png" alt="">
+            <em>返回顶部</em>
+        </div>
+        <div class="fk">
+            <img src="../image/icon/pen.png" alt="">
+            <em>我要反馈</em>
+        </div>
+        
+    </div>
 
 
     <!-- script -->
+    <script src="../script/jquery-1.8.3.js"></script>
+    <script src="../script/utils.js"></script>
+    <script src="../script/swiper.js"></script>
     <script src="../script/index.js"></script>
+    
+    <script>
+        
+    </script>
 </body>
 
 </html>
