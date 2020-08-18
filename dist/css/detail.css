@@ -1,0 +1,263 @@
+.goods-detail {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .goods-detail .tit {
+    width: 980px;
+    height: 20px;
+    padding: 7px 0 5px;
+    margin: 0 auto; }
+    .goods-detail .tit .tit-l {
+      float: left;
+      overflow: hidden;
+      width: 670px;
+      margin-top: 7px;
+      font-size: 12px;
+      color: #5a5a5a;
+      line-height: 20px; }
+    .goods-detail .tit .tit-r {
+      width: 230px;
+      float: right;
+      overflow: hidden;
+      text-align: center; }
+      .goods-detail .tit .tit-r div {
+        width: 80px;
+        height: 26px;
+        line-height: 26px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #E17C79;
+        margin-left: 10px;
+        float: right; }
+        .goods-detail .tit .tit-r div:hover {
+          text-decoration: underline;
+          cursor: pointer; }
+  .goods-detail .detail {
+    width: 980px;
+    margin: 7px auto; }
+    .goods-detail .detail .de-menu {
+      width: 100%;
+      height: 50px;
+      line-height: 50px; }
+      .goods-detail .detail .de-menu li {
+        float: left;
+        width: 195px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #5a5a5a;
+        border-bottom: 1px solid #000; }
+        .goods-detail .detail .de-menu li:hover {
+          text-decoration: underline;
+          cursor: pointer; }
+      .goods-detail .detail .de-menu .current {
+        color: #f27b04;
+        background: url(http://nocache.zuyushop.com:8013/cuxiao/images/cxMenuC.gif) center bottom no-repeat;
+        border-bottom: 1px solid #f27b04; }
+    .goods-detail .detail .de-main {
+      width: 100%; }
+      .goods-detail .detail .de-main .m-l {
+        width: 730px;
+        padding-right: 10px;
+        border-right: 1px solid #ededed; }
+        .goods-detail .detail .de-main .m-l .m-l-tit {
+          width: 730px;
+          padding: 25px 0;
+          text-align: left; }
+          .goods-detail .detail .de-main .m-l .m-l-tit h1 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #5A5A5A; }
+            .goods-detail .detail .de-main .m-l .m-l-tit h1 span {
+              color: #f27b04;
+              font-size: 20px;
+              font-weight: normal;
+              line-height: 36px;
+              display: block; }
+        .goods-detail .detail .de-main .m-l .info {
+          width: 730px;
+          height: 261px;
+          margin-top: 15px;
+          position: relative; }
+          .goods-detail .detail .de-main .m-l .info .pic {
+            width: 220px;
+            height: 261px;
+            margin-right: 20px;
+            float: left; }
+            .goods-detail .detail .de-main .m-l .info .pic img {
+              width: 220px;
+              height: 220px; }
+            .goods-detail .detail .de-main .m-l .info .pic .btns {
+              width: 220px;
+              margin-top: 15px;
+              text-align: center; }
+              .goods-detail .detail .de-main .m-l .info .pic .btns a {
+                display: inline-block;
+                height: 26px;
+                line-height: 26px;
+                padding: 0 2px;
+                color: #444;
+                font-size: 12px;
+                margin: 0 3px; }
+                .goods-detail .detail .de-main .m-l .info .pic .btns a:hover {
+                  color: #f27b04;
+                  cursor: pointer; }
+                .goods-detail .detail .de-main .m-l .info .pic .btns a img {
+                  width: 16px;
+                  height: 16px;
+                  vertical-align: -1px;
+                  margin-right: 2px; }
+          .goods-detail .detail .de-main .m-l .info .txt {
+            width: 490px;
+            float: left;
+            position: relative; }
+            .goods-detail .detail .de-main .m-l .info .txt p {
+              width: 190px;
+              line-height: 30px;
+              font-size: 14px; }
+            .goods-detail .detail .de-main .m-l .info .txt .link {
+              position: absolute;
+              top: 179px;
+              height: 32px; }
+              .goods-detail .detail .de-main .m-l .info .txt .link .zdlj {
+                display: inline-block;
+                width: 115px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                color: #fff;
+                font-size: 16px;
+                background-color: #f27b04;
+                border-radius: 3px; }
+              .goods-detail .detail .de-main .m-l .info .txt .link .l-img {
+                display: inline-block;
+                line-height: 32px;
+                background-color: #ffffff;
+                color: #474747;
+                vertical-align: -10px;
+                position: relative; }
+                .goods-detail .detail .de-main .m-l .info .txt .link .l-img:hover {
+                  cursor: pointer; }
+                  .goods-detail .detail .de-main .m-l .info .txt .link .l-img:hover .ma {
+                    display: block; }
+                .goods-detail .detail .de-main .m-l .info .txt .link .l-img .phone {
+                  width: 32px;
+                  height: 32px;
+                  margin-left: 10px; }
+                .goods-detail .detail .de-main .m-l .info .txt .link .l-img .ma {
+                  width: 180px;
+                  height: 180px;
+                  position: absolute;
+                  bottom: 45px;
+                  right: -90px;
+                  z-index: 99;
+                  padding: 20px;
+                  background-color: #fff;
+                  box-shadow: 0 0 8px #cdcdcd;
+                  border: 1px solid #cdcdcd;
+                  display: none; }
+            .goods-detail .detail .de-main .m-l .info .txt .note {
+              font-size: 14px;
+              position: absolute;
+              top: 240px; }
+          .goods-detail .detail .de-main .m-l .info .other {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            background-color: #ffffff; }
+            .goods-detail .detail .de-main .m-l .info .other .trend {
+              width: 300px;
+              height: 152px; }
+              .goods-detail .detail .de-main .m-l .info .other .trend img {
+                width: 300px;
+                height: 152px; }
+            .goods-detail .detail .de-main .m-l .info .other .area {
+              width: 170px;
+              padding: 0 25px;
+              float: right;
+              font-size: 14px;
+              background-color: #f7f6f4;
+              line-height: 38px;
+              margin-top: 24px; }
+              .goods-detail .detail .de-main .m-l .info .other .area a {
+                display: inline-block;
+                line-height: 38px;
+                padding: 0 20px 0 16px; }
+                .goods-detail .detail .de-main .m-l .info .other .area a:hover {
+                  text-decoration: underline;
+                  cursor: pointer; }
+                .goods-detail .detail .de-main .m-l .info .other .area a img {
+                  width: 16px;
+                  height: 16px;
+                  margin-left: 6px;
+                  vertical-align: middle; }
+              .goods-detail .detail .de-main .m-l .info .other .area strong {
+                color: #f27b04;
+                font-weight: normal; }
+        .goods-detail .detail .de-main .m-l .tjly {
+          width: 730px; }
+          .goods-detail .detail .de-main .m-l .tjly .tjlyT {
+            width: 730px;
+            height: 34px;
+            line-height: 34px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 16px;
+            height: 34px;
+            text-align: left; }
+          .goods-detail .detail .de-main .m-l .tjly .tjlyC {
+            width: 698px;
+            padding: 20px 15px 0 15px;
+            color: #333;
+            border: 1px solid #f5f5f5;
+            border-top: 1px solid #000;
+            font-size: 14px;
+            text-align: left;
+            margin-top: 8px;
+            line-height: 30px;
+            box-shadow: #f2f2f2 2px 3px 3px; }
+            .goods-detail .detail .de-main .m-l .tjly .tjlyC p {
+              line-height: 26px; }
+              .goods-detail .detail .de-main .m-l .tjly .tjlyC p span {
+                font-size: 16px;
+                font-weight: bold; }
+            .goods-detail .detail .de-main .m-l .tjly .tjlyC .bot {
+              text-align: center; }
+              .goods-detail .detail .de-main .m-l .tjly .tjlyC .bot img {
+                width: 544x;
+                height: 135px; }
+            .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB {
+              margin-top: 40px;
+              margin-bottom: 25px;
+              width: 100%; }
+              .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .link {
+                width: 100%;
+                height: 40px; }
+                .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .link a {
+                  display: block;
+                  margin: 0px auto;
+                  width: 150px;
+                  height: 40px;
+                  line-height: 40px;
+                  text-align: center;
+                  color: #ffffff;
+                  font-size: 16px;
+                  background-color: #f27b04;
+                  border-radius: 3px; }
+              .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .share {
+                width: 100%;
+                font-size: 14px;
+                text-align: right; }
+                .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .share a {
+                  width: 30px;
+                  height: 30px;
+                  display: inline-block; }
+                  .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .share a img {
+                    width: 30px;
+                    height: 30px;
+                    vertical-align: middle; }
+
+.footer {
+  border-top: 1px solid #dddddd;
+  padding: 10px 0; }

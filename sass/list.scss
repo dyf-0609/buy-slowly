@@ -1,0 +1,210 @@
+// main
+.main{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-bottom: 40px;
+    .main-con{
+        width: 980px;
+        margin: 0 auto 10px;
+        // 好价排行榜
+        .hj-phb{
+            width: 980px;
+            padding-top: 10px;
+            .hj-tit{
+                width: 980px;
+                padding: 20px 0;
+                text-align: center;
+                img{
+                    width: 242px;
+                    height: 29px;
+                }
+            }
+            .hj-con{
+                width: 980px;
+                .hd{
+                    width: 960px;
+                    padding-left: 20px;
+                    height: 67px;
+                    background-color: #fff;
+                    border-bottom: 1px solid #eee;
+                    .menu{
+                        width: 800px;
+                        overflow: hidden;
+                        float: left;
+                        li{
+                            float: left;
+                            padding-right: 30px;
+                            line-height: 67px;
+                            overflow: hidden;
+                            font-size: 18px;
+                            color: #333;
+                            cursor: pointer;
+                        }
+                        .current{
+                            color: #f8653f;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                    }
+                    
+                    .menu-r{
+                        float: right;
+                        width: 98px;
+                        line-height: 67px;
+                        padding-right: 16px;
+                        text-align: center;
+                        position: relative;
+                        a{
+                            color: #EB5328;
+                            font-size: 14px;
+                        }
+                        img{
+                            width: 14px;
+                            height: 14px;
+                            position: absolute;
+                            right: 16px;top: 27px;
+                        }
+                        .shang{
+                            display: none;
+                        }
+                        &:hover{
+                            box-shadow: 0px 4px 10px 0px rgba(0,15,104,0.05);
+                            .xia{
+                                display: none;
+                            }
+                            .shang{
+                                display: block;
+                            }
+                        }
+                        .r-list{
+                            display: none;
+                            width: 114px;
+                            height: 185px;
+                            padding-bottom: 10px;
+                            background:#fff;
+                            box-shadow: 0px 10px 10px 0px rgba(0,15,104,0.05);
+                            text-align: center;
+                            z-index: 99;
+                            position: absolute;
+                            right: 0;top:67px;
+                            cursor: pointer;
+                            li{
+                                width: 114px;
+                                height: 37px;
+                                font-size: 14px;
+                                color: #666;
+                                line-height: 37px;
+                                cursor: pointer;
+                            }
+                            .on{
+                                color: #EB5328;
+                                background-color:#FFF4ED;
+                            }
+                        }
+                    }
+                }
+                .bd{
+                    height: 930px;
+                    width: 940px;
+                    padding: 0 20px;
+                    background:#fff;
+                    .bd-con{
+                        width: 940px;
+                        height: 885px;
+                        ul{
+                            width: 980px;
+                            height: 885px;
+                            overflow: hidden;
+                            li{
+                                width: 179px;
+                                height: 274px;
+                                overflow: hidden;
+                                float: left;
+                                margin-right: 9px;
+                                border: 1px solid #eee;
+                                margin-top: 9px;
+                                padding-bottom: 10px;
+                                position: relative;
+                                .tab{
+                                    width: 26px;
+                                    height: 28px;
+                                    position: absolute;
+                                    left: 9px;top: 0;
+                                    text-align: center;
+                                    img{
+                                        z-index: 2;
+                                    }
+                                    span{
+                                        width: 26px;
+                                        height: 28px;
+                                        line-height: 26px;
+                                        position: absolute;
+                                        top: 0;left:0;
+                                        font-size: 16px;
+                                        color: #fff;
+                                        text-align: center;
+                                        z-index:1;
+                                    }
+                                }
+                                .pic{
+                                    width: 179px;
+                                    height: 179px;
+                                    img{
+                                        width: 179px;
+                                        height: 179px;
+                                        cursor: pointer;
+                                    }
+                                }
+                                .tags{
+                                    width: 151px;
+                                    height: 34px;
+                                    line-height: 34px;
+                                    padding: 0 14px;
+                                    a{
+                                        height: 34px;
+                                        margin-right: 10px;
+                                        display: inline-block;
+                                        color: #999;
+                                        font-size: 12px;
+                                        img{
+                                            width: 16px;
+                                            height: 17px;
+                                            float: left;
+                                            margin-top: 8px;
+                                        }
+                                    }    
+                                }
+                                .tit{
+                                    width: 151px;
+                                    height: 44px;
+                                    padding: 0 14px;
+                                    line-height: 22px;
+                                    font-size: 14px;
+                                    color: #333;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    &:hover{
+                                        color: rgb(255, 81, 0);
+                                        cursor: pointer;
+                                    }
+                                }
+                                .subtit{
+                                    width: 151px;
+                                    height: 22px;
+                                    padding: 0 14px;
+                                    line-height: 22px;
+                                    font-size: 14px;
+                                    color: #f8653f;
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

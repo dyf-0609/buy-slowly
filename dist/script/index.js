@@ -141,6 +141,7 @@ $(function(){
         success:function(jsonArr){
             $.each(jsonArr,function(index,item){
                 var goodsDom=` <li>
+                <div class="tab"><img src="${item.taburl}" alt=""><span>${item.num}</span></div>
                 <div class="pic">
                     <img src="${item.imgurl}" alt="">
                 </div>

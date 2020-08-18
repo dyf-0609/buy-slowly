@@ -343,7 +343,8 @@ html body {
           position: absolute;
           left: -1px;
           top: 39px;
-          display: none; }
+          display: none;
+          z-index: 99; }
           .nav .nav-con .menu .more .more-c li {
             width: 100px;
             height: 35px;
@@ -743,7 +744,28 @@ html body {
               .main .r-slide .phb .bd .goods-box .temp-wrap ul li {
                 width: 167px;
                 float: left;
-                margin-right: 18px; }
+                margin-right: 18px;
+                position: relative; }
+                .main .r-slide .phb .bd .goods-box .temp-wrap ul li .tab {
+                  width: 26px;
+                  height: 28px;
+                  position: absolute;
+                  left: 9px;
+                  top: 0;
+                  text-align: center; }
+                  .main .r-slide .phb .bd .goods-box .temp-wrap ul li .tab img {
+                    z-index: 2; }
+                  .main .r-slide .phb .bd .goods-box .temp-wrap ul li .tab span {
+                    width: 26px;
+                    height: 28px;
+                    line-height: 26px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    font-size: 16px;
+                    color: #fff;
+                    text-align: center;
+                    z-index: 1; }
                 .main .r-slide .phb .bd .goods-box .temp-wrap ul li .pic {
                   width: 167px;
                   height: 172px; }

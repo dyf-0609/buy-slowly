@@ -1,0 +1,118 @@
+.login {
+  width: 982px;
+  height: 396px;
+  border: 1px solid #ccc;
+  margin: 12px auto; }
+  .login .lt {
+    width: 962px;
+    padding: 6px 10px;
+    background-image: url(../image/login-t.gif);
+    font-size: 14px;
+    color: #666;
+    font-weight: bold; }
+  .login .lm {
+    width: 800px;
+    margin: 10px auto;
+    overflow: hidden; }
+    .login .lm .m-l {
+      float: left;
+      width: 540px;
+      height: 192px;
+      padding-top: 16px;
+      margin: 10px 10px 0 10px;
+      border-right: 1px solid #ccc;
+      overflow: hidden; }
+      .login .lm .m-l p {
+        line-height: 30px;
+        font-size: 12px;
+        color: #5a5a5a;
+        margin-bottom: 5px; }
+        .login .lm .m-l p label {
+          font-size: 14px;
+          color: #333; }
+        .login .lm .m-l p input {
+          width: 200px;
+          height: 16px;
+          padding: 1px 2px;
+          border: 1px solid #c3c3c3; }
+        .login .lm .m-l p .check {
+          float: left;
+          width: 16px;
+          height: 16px;
+          line-height: 30px;
+          margin-left: 90px;
+          margin-top: 6px;
+          margin-right: 3px; }
+        .login .lm .m-l p .btn {
+          display: block;
+          width: 69px;
+          height: 27px;
+          padding: 1px 6px;
+          font-size: 14px;
+          text-align: center;
+          margin-left: 90px;
+          cursor: pointer;
+          border: 1px solid #767676; }
+        .login .lm .m-l p span {
+          color: #999;
+          font-size: 12px;
+          margin-right: 20px;
+          margin-left: 10px; }
+        .login .lm .m-l p .qq, .login .lm .m-l p .wx, .login .lm .m-l p .vb {
+          color: #5a5a5a; }
+          .login .lm .m-l p .qq img, .login .lm .m-l p .wx img, .login .lm .m-l p .vb img {
+            vertical-align: middle; }
+          .login .lm .m-l p .qq:hover, .login .lm .m-l p .wx:hover, .login .lm .m-l p .vb:hover {
+            text-decoration: underline;
+            color: #ee7000;
+            cursor: pointer; }
+      .login .lm .m-l .pwd {
+        padding-left: 48px; }
+    .login .lm .m-r {
+      width: 216px;
+      height: 202px;
+      float: left;
+      overflow: hidden; }
+      .login .lm .m-r .txt {
+        width: 196px;
+        line-height: 16px;
+        padding-top: 5px;
+        margin-top: 60px;
+        margin-left: 20px;
+        font-weight: bold;
+        color: #333;
+        font-size: 12px;
+        text-align: center; }
+      .login .lm .m-r .pic {
+        padding: 5px;
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 20px; }
+        .login .lm .m-r .pic img {
+          width: 139px;
+          height: 31px;
+          cursor: pointer; }
+  .login .line {
+    width: 982px;
+    height: 1px;
+    border-top: 1px dashed #999;
+    margin-top: 50px;
+    margin-bottom: 6px; }
+  .login .lb {
+    margin-bottom: 10px;
+    text-align: center; }
+
+.hx {
+  height: 2px;
+  background-color: #F27B04;
+  font-size: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.footer {
+  margin-top: 50px;
+  padding: 6px; }
+
+.foot-nav-con {
+  background-color: #FEFEFE;
+  border-top: 1px solid #DDDDDD; }

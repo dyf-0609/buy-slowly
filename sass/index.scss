@@ -428,9 +428,7 @@ html body{
                     border: 1px solid #eee;
                     border-top: 1px solid #F9513B;
                     border-bottom: 1px solid #fff;
-                    background-color: #fff;
-
-                    
+                    background-color: #fff;   
                 }
                 .more-c{
                     width: 102px;
@@ -442,6 +440,7 @@ html body{
                     left: -1px;
                     top: 39px;
                     display: none;
+                    z-index: 99;
                     li{
                         width: 100px;
                         height: 35px;
@@ -943,6 +942,28 @@ html body{
                                 width: 167px;
                                 float: left;
                                 margin-right: 18px;
+                                position: relative;
+                                .tab{
+                                    width: 26px;
+                                    height: 28px;
+                                    position: absolute;
+                                    left: 9px;top: 0;
+                                    text-align: center;
+                                    img{
+                                        z-index: 2;
+                                    }
+                                    span{
+                                        width: 26px;
+                                        height: 28px;
+                                        line-height: 26px;
+                                        position: absolute;
+                                        top: 0;left:0;
+                                        font-size: 16px;
+                                        color: #fff;
+                                        text-align: center;
+                                        z-index:1;
+                                    }
+                                }
                                 .pic{
                                     width: 167px;
                                     height: 172px;
