@@ -71,6 +71,7 @@
                 width: 730px;
                 padding-right: 10px;
                 border-right: 1px solid #ededed;
+                float: left;
                 .m-l-tit{
                     width: 730px;
                     padding: 25px 0;
@@ -296,6 +297,7 @@
                             .share{
                                 width: 100%;
                                 font-size: 14px;
+                                margin-top:7px ;
                                 text-align: right;
                                 a{
                                     width: 30px;
@@ -312,6 +314,294 @@
                         }
                     }
                     
+                }
+            }
+            .m-r{
+                float: right;
+                width: 230px;
+                .zk-box{
+                    width: 230px;
+                    margin-top: 2px;
+                    border-bottom: 1px solid #ddd;
+                    line-height: 38px;
+                    h3{
+                        font-size: 18px;
+                        width: 144px;
+                        border-bottom: 1px solid #636363;
+                        margin-bottom: -1px;
+                        font-weight: normal;
+                    }
+                }
+                .zk-con{
+                    width: 230px;
+                    margin-top: 6px;
+                    overflow: hidden;
+                    div{
+                        width: 33%;
+                        padding-top: 5px;
+                        text-align: center;
+                        float: left;
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            padding-bottom: 5px;
+                            display: block;
+                            cursor: pointer;
+                            margin: 0 auto;
+                        }a{
+                            color: #5a5a5a;
+                            font-size: 12px;
+                            &:hover{
+                                text-decoration: underline;
+                                cursor: pointer;
+                                color: #f27b04;
+                            }
+                        }
+                    }
+                }
+                .zk-pic{
+                    width: 230px;
+                    .zk-p-tit{
+                        width: 230px;
+                        line-height: 38px;
+                        margin-top: 10px;
+                        border-bottom: 1px solid #d1d1d1;
+                        h3{
+                            font-size: 18px;
+                            font-weight: normal;
+                            border-bottom: 1px solid #636363;
+                            margin-bottom: -1px;
+                            width: 150px;
+                        }
+                    }
+                    .zk-p-con{
+                        width: 230px;
+                        height: 228px;
+                        margin-top: 6px;
+                        ul{
+                            width: 230px;
+                            height: 228px;
+                            li{
+                                float: left;
+                                width: 70px;
+                                height: 70px;
+                                border: 1px solid #e5e5e5;
+                                margin: 2px;
+                                text-align: center;
+                                position: relative;
+                                &:hover{
+                                    cursor: pointer;
+                                    color:#f27b04;
+                                    .b-pic{
+                                        display: block;
+                                    }
+                                }
+                                img{
+                                    width: 70px;
+                                    height: 70px;
+                                }
+                                a{
+                                    font-size: 12px;
+                                    color: #5a5a5a;
+                                    &:hover{
+                                        cursor: pointer;
+                                        color: #f27b04;
+                                        text-decoration: underline;
+                                    }
+                                }
+                                .b-pic{
+                                    position: absolute;
+                                    left: -2px;top: -2px;
+                                    width: 230px;
+                                    height: 228px;
+                                    display: none;
+                                    z-index: 99;
+                                    img{
+                                        width: 230px;
+                                        height: 228px;
+                                    }
+                                    .txt{
+                                        position: absolute;
+                                        left: 0;bottom: 0;
+                                        width: 220px;
+                                        padding: 5px;
+                                        background-color: #5a5a5a;
+                                        text-align: left;
+                                        opacity: 0.8;
+                                        a{
+                                            color: #fff;
+                                            font-size: 12px;
+                                            &:hover{
+                                                cursor: pointer;
+                                                text-decoration: underline;
+                                            }
+                                        }
+                                    }
+                                    
+                                }
+                            }
+                            .pic2{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -78px;top: -2px;
+                                }
+                            }
+                            .pic3{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -152px;top: -2px;
+                                }
+                            }
+                            .pic4{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -2px;top: -78px;
+                                }
+                            }
+                            .pic5{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -76px;top: -76px;
+                                }
+                            }
+                            .pic6{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -154px;top: -78px;
+                                }
+                            }
+                            .pic7{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -2px;top:-154px
+                                }
+                            }
+                            .pic8{
+                                position: relative;
+                                .b-pic{
+                                    position: absolute;
+                                    left: -78px;top: -154px;
+                                }
+                            }
+                            
+
+                        }
+                    }
+                }
+                .zk-slider{
+                    width: 230px;
+                    .zk-s-tit{
+                        width: 230px;
+                        line-height: 38px;
+                        border-bottom: 1px solid #d1d1d1;
+                        overflow: hidden;
+                        margin-top: 10px;
+                        h3{
+                            font-size: 18px;
+                            font-weight: normal;
+                            border-bottom: 1px solid #636363;
+                            margin-bottom: -1px;
+                            width: 150px;
+                            float: left;
+                        }
+                        span{
+                            float: right;
+                            font-size: 12px;
+                            &:hover{
+                                text-decoration: underline;
+                                color: #f27b04;
+                            }
+                        }
+                    }
+                    .swiper-container{
+                        width: 230px;
+                        height: 230px;
+                        margin-top: 6px;
+                        .swiper-slide{
+                            width: 230px;
+                            height: 230px;
+                            float: left;
+                            img{
+                                width: 230px;
+                                height: 230px;
+                            }
+                        }
+                    }
+                }
+                .zk-active{
+                    width: 230px;
+                    .zk-a-tit{
+                        width: 230px;
+                        line-height: 38px;
+                        margin-top: 10px;
+                        border-bottom: 1px solid #d1d1d1;
+                        h3{
+                            font-size: 18px;
+                            font-weight: normal;
+                            border-bottom: 1px solid #636363;
+                            margin-bottom: -1px;
+                            width: 150px;
+                        }
+                    }
+                    .zk-a-con{
+                        width: 230px;
+                        li{
+                            width: 230px;
+                            height: 86px;
+                            padding: 7px 0 2px;
+                            border-bottom: 1px solid #efefef;
+                            .a-pic{
+                                width: 50px;
+                                height: 50px;
+                                float: left;
+                                img{
+                                    width: 50px;
+                                    height: 50px;
+                                }
+                            }
+                            .a-con{
+                                width: 170px;
+                                height: 86px;
+                                float: right;
+                                .p1{
+                                    line-height: 20px;
+                                    height: 44px;
+                                    overflow: hidden;
+                                    font-size: 12px;
+                                    color: #5a5a5a;
+                                    &:hover{
+                                        color: #f27b04;
+                                    }
+                                }
+                                .p2{
+                                    height: 22px;
+                                    line-height: 20px;
+                                    overflow: hidden;
+                                    color: #f27b04;
+                                    font-size:12px;    
+                                }
+                                .p3{
+                                    line-height: 20px;
+                                    .s1{
+                                        float: left;
+                                        color: #999;
+                                        font-size: 12px;
+                                    }
+                                    .s2{
+                                        float: right;
+                                        color: #999;
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

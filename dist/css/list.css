@@ -92,11 +92,18 @@
           padding: 0 20px;
           background: #fff; }
           .main .main-con .hj-phb .hj-con .bd .bd-con {
-            width: 940px;
-            height: 885px; }
+            width: 945px;
+            height: 930px;
+            overflow: hidden; }
+            .main .main-con .hj-phb .hj-con .bd .bd-con:hover .swiper-button-next::after, .main .main-con .hj-phb .hj-con .bd .bd-con:hover .swiper-button-prev::after {
+              display: block;
+              width: 24px;
+              margin-left: 8px;
+              margin-top: 5px; }
             .main .main-con .hj-phb .hj-con .bd .bd-con ul {
               width: 980px;
               height: 885px;
+              float: left;
               overflow: hidden; }
               .main .main-con .hj-phb .hj-con .bd .bd-con ul li {
                 width: 179px;
@@ -174,3 +181,18 @@
                   white-space: nowrap;
                   text-overflow: ellipsis;
                   cursor: pointer; }
+            .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-pagination {
+              position: absolute;
+              bottom: -30px; }
+            .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-prev, .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-next {
+              width: 40px;
+              height: 90px;
+              background-color: #000;
+              opacity: 0.3;
+              margin-top: -45px; }
+            .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-prev {
+              top: 50%;
+              left: 0px; }
+            .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-next {
+              top: 50%;
+              right: 5px; }

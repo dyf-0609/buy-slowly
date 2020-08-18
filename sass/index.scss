@@ -475,6 +475,7 @@ html body{
     padding-bottom: 40px;
     background-color: #F3F2F3;
     overflow: hidden;
+    position: relative;
     .main-con{
         width: 1190px;
         margin: 0 auto;
@@ -490,6 +491,7 @@ html body{
             height: 540px;
             padding: 5px 0;
             background-color: #fff;
+            overflow: hidden;
             li{
                 width: 204px;
                 padding: 0 15px;
@@ -599,13 +601,22 @@ html body{
 
             }
         } 
-
+        .fixed{
+            position: fixed;
+            top: 0;left: 165px;
+        }
+        .fixed1{
+            position: absolute;
+            bottom: 40px;left: 165px;
+        }
         //国内折扣小时排行榜
         .hour-list{
             width: 234px;
             height: 520px;
             margin-top: 10px;
             background-color: #fff;
+            //  position: absolute;
+            // top: 550px;left: 165px;
             .hd{
                 width: 214px;
                 height: 39px;
@@ -674,6 +685,8 @@ html body{
             height: 520px;
             margin-top: 10px;
             background-color: #fff;
+            
+            z-index: 99;
             .hd{
                 width: 214px;
                 height: 39px;
@@ -931,17 +944,29 @@ html body{
                 background-color: #fff;
                 overflow: hidden; 
                 .goods-box{
-                    width: 909px;
+                    width: 925px;
+                    position: relative;
                     .temp-wrap{
-                        width: 925px;
+                        width: 10000px;
                         overflow: hidden;
+                        &:hover{
+                            .swiper-button-next,.swiper-button-prev{
+                                &::after{
+                                    display: block;
+                                    width: 24px;
+                                    margin-left: 8px;
+                                    margin-top: 23px;
+                                }
+                            }
+                        }
                         ul{
-                            width: 10000px;
-                            overflow: hidden;
+                            width: 925px;
+                            height: 280px;
+                            float: left;
                             li{
                                 width: 167px;
                                 float: left;
-                                margin-right: 18px;
+                                padding-right: 18px;
                                 position: relative;
                                 .tab{
                                     width: 26px;
@@ -1015,7 +1040,22 @@ html body{
                                 }
                             }
                         }
-                    } 
+                    }
+                    .swiper-button-prev,.swiper-button-next{
+                        width: 40px;
+                        height: 95px;
+                        background-color: #000;
+                        opacity: 0.3;
+                        margin-top: -45px;
+                        display: none;
+                        
+                    }
+                    .swiper-button-prev{
+                        top: 50%;left: 0;
+                    }
+                    .swiper-button-next{
+                        top: 50%; right: 0;
+                    }
                 }
             }
         }

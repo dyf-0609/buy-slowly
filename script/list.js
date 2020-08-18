@@ -13,8 +13,9 @@ $(function(){
         type:'get',
         dataType:'json',
         success:function(jsonArr){
-            $.each(jsonArr,function(index,item){
-                var goodsDom=` <li>
+            $.each(jsonArr,function(i,ite){
+                $.each(ite,function(j,item){
+                    var goodsDom=` <li>
                 <div class="tab"><img src="${item.taburl}" alt=""><span>${item.num}</span></div>
                 <div class="pic">
                     <img src="${item.imgurl}" alt="">
@@ -26,12 +27,56 @@ $(function(){
                 </div>
                 <div class="tit">${item.tit}</div>
                 <div class="subtit">${item.subtit}</div>
-            </li>`
-            $('.bd-con-goods').append(goodsDom);
-            })   
+                </li>`
+                $('.bd-con-goods'+[i]).append(goodsDom);
+                })   
+        })
+                
         }
     })
 })
+
+//轮播图
+var mySwiper = new Swiper ('.swiper-containerbd', {
+    //direction: 'vertical', // 垂直切换选项
+    direction: 'horizontal',//水平
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+    el: '.swiper-pagination',
+    clickable :true,
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    // scrollbar: {
+    // el: '.swiper-scrollbar',
+    // },
+
+    //自动播放
+    //autoplay:true,//等同于以下设置
+    // autoplay: {
+    //     delay: 3000,
+    //     stopOnLastSlide: false,
+    //     disableOnInteraction: false,
+    //     }, 
+}) 
+
+$('.swiper-containerbd').mouseenter(function(){
+    $(this).find('.swiper-button-prev').show();
+    $(this).find('.swiper-button-next').show();
+})
+$('.swiper-containerbd').mouseleave(function(){
+    $(this).find('.swiper-button-prev').hide();
+    $(this).find('.swiper-button-next').hide();
+})
+
 
 //返回顶部
 $('.cb-top').mouseenter(function(){

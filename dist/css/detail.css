@@ -60,7 +60,8 @@
       .goods-detail .detail .de-main .m-l {
         width: 730px;
         padding-right: 10px;
-        border-right: 1px solid #ededed; }
+        border-right: 1px solid #ededed;
+        float: left; }
         .goods-detail .detail .de-main .m-l .m-l-tit {
           width: 730px;
           padding: 25px 0;
@@ -248,6 +249,7 @@
               .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .share {
                 width: 100%;
                 font-size: 14px;
+                margin-top: 7px;
                 text-align: right; }
                 .goods-detail .detail .de-main .m-l .tjly .tjlyC .tjlyB .share a {
                   width: 30px;
@@ -257,6 +259,241 @@
                     width: 30px;
                     height: 30px;
                     vertical-align: middle; }
+      .goods-detail .detail .de-main .m-r {
+        float: right;
+        width: 230px; }
+        .goods-detail .detail .de-main .m-r .zk-box {
+          width: 230px;
+          margin-top: 2px;
+          border-bottom: 1px solid #ddd;
+          line-height: 38px; }
+          .goods-detail .detail .de-main .m-r .zk-box h3 {
+            font-size: 18px;
+            width: 144px;
+            border-bottom: 1px solid #636363;
+            margin-bottom: -1px;
+            font-weight: normal; }
+        .goods-detail .detail .de-main .m-r .zk-con {
+          width: 230px;
+          margin-top: 6px;
+          overflow: hidden; }
+          .goods-detail .detail .de-main .m-r .zk-con div {
+            width: 33%;
+            padding-top: 5px;
+            text-align: center;
+            float: left; }
+            .goods-detail .detail .de-main .m-r .zk-con div img {
+              width: 40px;
+              height: 40px;
+              padding-bottom: 5px;
+              display: block;
+              cursor: pointer;
+              margin: 0 auto; }
+            .goods-detail .detail .de-main .m-r .zk-con div a {
+              color: #5a5a5a;
+              font-size: 12px; }
+              .goods-detail .detail .de-main .m-r .zk-con div a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+                color: #f27b04; }
+        .goods-detail .detail .de-main .m-r .zk-pic {
+          width: 230px; }
+          .goods-detail .detail .de-main .m-r .zk-pic .zk-p-tit {
+            width: 230px;
+            line-height: 38px;
+            margin-top: 10px;
+            border-bottom: 1px solid #d1d1d1; }
+            .goods-detail .detail .de-main .m-r .zk-pic .zk-p-tit h3 {
+              font-size: 18px;
+              font-weight: normal;
+              border-bottom: 1px solid #636363;
+              margin-bottom: -1px;
+              width: 150px; }
+          .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con {
+            width: 230px;
+            height: 228px;
+            margin-top: 6px; }
+            .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul {
+              width: 230px;
+              height: 228px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li {
+                float: left;
+                width: 70px;
+                height: 70px;
+                border: 1px solid #e5e5e5;
+                margin: 2px;
+                text-align: center;
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li:hover {
+                  cursor: pointer;
+                  color: #f27b04; }
+                  .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li:hover .b-pic {
+                    display: block; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li img {
+                  width: 70px;
+                  height: 70px; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li a {
+                  font-size: 12px;
+                  color: #5a5a5a; }
+                  .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li a:hover {
+                    cursor: pointer;
+                    color: #f27b04;
+                    text-decoration: underline; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li .b-pic {
+                  position: absolute;
+                  left: -2px;
+                  top: -2px;
+                  width: 230px;
+                  height: 228px;
+                  display: none;
+                  z-index: 99; }
+                  .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li .b-pic img {
+                    width: 230px;
+                    height: 228px; }
+                  .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li .b-pic .txt {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 220px;
+                    padding: 5px;
+                    background-color: #5a5a5a;
+                    text-align: left;
+                    opacity: 0.8; }
+                    .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li .b-pic .txt a {
+                      color: #fff;
+                      font-size: 12px; }
+                      .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li .b-pic .txt a:hover {
+                        cursor: pointer;
+                        text-decoration: underline; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic2 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic2 .b-pic {
+                  position: absolute;
+                  left: -78px;
+                  top: -2px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic3 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic3 .b-pic {
+                  position: absolute;
+                  left: -152px;
+                  top: -2px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic4 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic4 .b-pic {
+                  position: absolute;
+                  left: -2px;
+                  top: -78px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic5 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic5 .b-pic {
+                  position: absolute;
+                  left: -76px;
+                  top: -76px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic6 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic6 .b-pic {
+                  position: absolute;
+                  left: -154px;
+                  top: -78px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic7 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic7 .b-pic {
+                  position: absolute;
+                  left: -2px;
+                  top: -154px; }
+              .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic8 {
+                position: relative; }
+                .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul .pic8 .b-pic {
+                  position: absolute;
+                  left: -78px;
+                  top: -154px; }
+        .goods-detail .detail .de-main .m-r .zk-slider {
+          width: 230px; }
+          .goods-detail .detail .de-main .m-r .zk-slider .zk-s-tit {
+            width: 230px;
+            line-height: 38px;
+            border-bottom: 1px solid #d1d1d1;
+            overflow: hidden;
+            margin-top: 10px; }
+            .goods-detail .detail .de-main .m-r .zk-slider .zk-s-tit h3 {
+              font-size: 18px;
+              font-weight: normal;
+              border-bottom: 1px solid #636363;
+              margin-bottom: -1px;
+              width: 150px;
+              float: left; }
+            .goods-detail .detail .de-main .m-r .zk-slider .zk-s-tit span {
+              float: right;
+              font-size: 12px; }
+              .goods-detail .detail .de-main .m-r .zk-slider .zk-s-tit span:hover {
+                text-decoration: underline;
+                color: #f27b04; }
+          .goods-detail .detail .de-main .m-r .zk-slider .swiper-container {
+            width: 230px;
+            height: 230px;
+            margin-top: 6px; }
+            .goods-detail .detail .de-main .m-r .zk-slider .swiper-container .swiper-slide {
+              width: 230px;
+              height: 230px;
+              float: left; }
+              .goods-detail .detail .de-main .m-r .zk-slider .swiper-container .swiper-slide img {
+                width: 230px;
+                height: 230px; }
+        .goods-detail .detail .de-main .m-r .zk-active {
+          width: 230px; }
+          .goods-detail .detail .de-main .m-r .zk-active .zk-a-tit {
+            width: 230px;
+            line-height: 38px;
+            margin-top: 10px;
+            border-bottom: 1px solid #d1d1d1; }
+            .goods-detail .detail .de-main .m-r .zk-active .zk-a-tit h3 {
+              font-size: 18px;
+              font-weight: normal;
+              border-bottom: 1px solid #636363;
+              margin-bottom: -1px;
+              width: 150px; }
+          .goods-detail .detail .de-main .m-r .zk-active .zk-a-con {
+            width: 230px; }
+            .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li {
+              width: 230px;
+              height: 86px;
+              padding: 7px 0 2px;
+              border-bottom: 1px solid #efefef; }
+              .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-pic {
+                width: 50px;
+                height: 50px;
+                float: left; }
+                .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-pic img {
+                  width: 50px;
+                  height: 50px; }
+              .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con {
+                width: 170px;
+                height: 86px;
+                float: right; }
+                .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con .p1 {
+                  line-height: 20px;
+                  height: 44px;
+                  overflow: hidden;
+                  font-size: 12px;
+                  color: #5a5a5a; }
+                  .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con .p1:hover {
+                    color: #f27b04; }
+                .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con .p2 {
+                  height: 22px;
+                  line-height: 20px;
+                  overflow: hidden;
+                  color: #f27b04;
+                  font-size: 12px; }
+                .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con .p3 {
+                  line-height: 20px; }
+                  .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con .p3 .s1 {
+                    float: left;
+                    color: #999;
+                    font-size: 12px; }
+                  .goods-detail .detail .de-main .m-r .zk-active .zk-a-con li .a-con .p3 .s2 {
+                    float: right;
+                    color: #999;
+                    font-size: 12px; }
 
 .footer {
   border-top: 1px solid #dddddd;

@@ -1,4 +1,4 @@
-[
+[[
     {
         "taburl":"../image/tab.png","num":"1","imgurl":"../image/bc1.jpg","tit":"8月15日 京东商城 京豆领取汇总","num1":"15","num2":"200","num3":"5","subtit":"京豆数量有限"
     },
@@ -9,9 +9,42 @@
         "taburl":"../image/tab.png","num":"3","imgurl":"../image/bc3.jpg","tit":"十月稻田 粥米 稻花香大米 东北大米 真空包装1kg*16","num1":"16","num2":"270","num3":"25","subtit":"京豆有限 随时领完"
     },
     {
-        "imgurl":"../image/bc4.jpg","tit":"京东8月家影拉新满4000减1000优惠券","num1":"23","num2":"156","num3":"8","subtit":"49元包邮"
+        "taburl":"","num":"","imgurl":"../image/bc4.jpg","tit":"京东8月家影拉新满4000减1000优惠券","num1":"23","num2":"156","num3":"8","subtit":"49元包邮"
     },
     {
-        "imgurl":"../image/bc5.jpg","tit":"欧鲜生 松塔千层酥饼干奶香味1箱","num1":"2","num2":"154","num3":"13","subtit":"限时免费"
+        "taburl":"","num":"","imgurl":"../image/bc5.jpg","tit":"欧鲜生 松塔千层酥饼干奶香味1箱","num1":"2","num2":"154","num3":"13","subtit":"限时免费"
     }
-]
+],
+[
+    {
+        "taburl":"","num":"","imgurl":"../image/bc3.jpg","tit":"8月15日 京东商城 京豆领取汇总","num1":"15","num2":"200","num3":"5","subtit":"京豆数量有限"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc2.jpg","tit":"京东自营小家电满300减30元优惠券","num1":"85","num2":"250","num3":"75","subtit":"199元包邮"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc4.jpg","tit":"十月稻田 粥米 稻花香大米 东北大米 真空包装1kg*16","num1":"16","num2":"270","num3":"25","subtit":"京豆有限 随时领完"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc5.jpg","tit":"京东8月家影拉新满4000减1000优惠券","num1":"23","num2":"156","num3":"8","subtit":"49元包邮"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc1.jpg","tit":"欧鲜生 松塔千层酥饼干奶香味1箱","num1":"2","num2":"154","num3":"13","subtit":"限时免费"
+    }
+],[
+    {
+        "taburl":"","num":"","imgurl":"../image/bc4.jpg","tit":"8月15日 京东商城 京豆领取汇总","num1":"15","num2":"200","num3":"5","subtit":"京豆数量有限"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc3.jpg","tit":"京东自营小家电满300减30元优惠券","num1":"85","num2":"250","num3":"75","subtit":"199元包邮"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc1.jpg","tit":"十月稻田 粥米 稻花香大米 东北大米 真空包装1kg*16","num1":"16","num2":"270","num3":"25","subtit":"京豆有限 随时领完"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc5.jpg","tit":"京东8月家影拉新满4000减1000优惠券","num1":"23","num2":"156","num3":"8","subtit":"49元包邮"
+    },
+    {
+        "taburl":"","num":"","imgurl":"../image/bc2.jpg","tit":"欧鲜生 松塔千层酥饼干奶香味1箱","num1":"2","num2":"154","num3":"13","subtit":"限时免费"
+    }
+]]

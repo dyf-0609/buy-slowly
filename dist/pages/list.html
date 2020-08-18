@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品列表</title>
+    <link rel="stylesheet" href="../css/swiper.css">
     <link rel="stylesheet" href="../css/list.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/public.css">
@@ -14,7 +15,7 @@
         <div class="top-con">
             <div class="left">
                 <span>欢迎来到慢慢买!</span>
-                <span><a href="">请登录</a></span>
+                <span><a href="login.html">请登录</a></span>
                 <span><a href="">免费注册</a></span>
             </div>
             <ul class="right">
@@ -171,8 +172,8 @@
                     </div>
                     <div class="bd">
                         <div class="bd-con">
-                            <ul class="bd-con-goods">
-                                <!-- <li>
+                            <!--<ul class="bd-con-goods">
+                                <li>
                                     <div class="tab"><img src="../image/tab.png" alt=""><span>1</span></div>
                                     <div class="pic">
                                         <img src="../image/phb1.jpg" alt="">
@@ -184,8 +185,24 @@
                                     </div>
                                     <div class="tit">8月15日 京东商城 京豆领取汇总</div>
                                     <div class="subtit">京豆数量有限</div>
-                                </li> -->
-                            </ul>
+                                </li> 
+                            </ul>-->
+                            <div class="swiper-containerbd" style="position: relative;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><ul class="bd-con-goods0"></ul></div>
+                                    <div class="swiper-slide"><ul class="bd-con-goods1"></ul></div>
+                                    
+                                </div>
+                                <!-- 如果需要分页器 -->
+                                <div class="swiper-pagination"></div>
+                                
+                                <!-- 如果需要导航按钮 -->
+                                <div class="swiper-button-prev"> </div>
+                                <div class="swiper-button-next"></div> 
+                                
+                                <!-- 如果需要滚动条 -->
+                                <!-- <div class="swiper-scrollbar"></div> -->
+                            </div>
                         </div>
                     </div>   
                 </div>
@@ -215,8 +232,22 @@
                     </div>
                     <div class="bd">
                         <div class="bd-con">
-                            <ul class="bd-con-goods">
-                            </ul>
+                            <div class="swiper-containerbd" style="position: relative;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><ul class="bd-con-goods0"></ul></div>
+                                    <div class="swiper-slide"><ul class="bd-con-goods1"></ul></div>
+                                    
+                                </div>
+                                <!-- 如果需要分页器 -->
+                                <div class="swiper-pagination"></div>
+                                
+                                <!-- 如果需要导航按钮 -->
+                                <div class="swiper-button-prev"> </div>
+                                <div class="swiper-button-next"></div> 
+                                
+                                <!-- 如果需要滚动条 -->
+                                <!-- <div class="swiper-scrollbar"></div> -->
+                            </div>
                         </div>
                     </div>   
                 </div>
@@ -246,8 +277,22 @@
                     </div>
                     <div class="bd">
                         <div class="bd-con">
-                            <ul class="bd-con-goods">
-                            </ul>
+                            <div class="swiper-containerbd" style="position: relative;">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><ul class="bd-con-goods0"></ul></div>
+                                    <div class="swiper-slide"><ul class="bd-con-goods1"></ul></div>
+                                    
+                                </div>
+                                <!-- 如果需要分页器 -->
+                                <div class="swiper-pagination"></div>
+                                
+                                <!-- 如果需要导航按钮 -->
+                                <div class="swiper-button-prev"> </div>
+                                <div class="swiper-button-next"></div> 
+                                
+                                <!-- 如果需要滚动条 -->
+                                <!-- <div class="swiper-scrollbar"></div> -->
+                            </div>
                         </div>
                     </div>   
                 </div>
@@ -339,6 +384,7 @@
 
     <script src="../script/jquery-1.8.3.js"></script>
     <script src="../script/utils.js"></script>
+    <script src="../script/swiper.js"></script>
     <script src="../script/index.js"></script>
     <script src="../script/list.js"></script>
 </body>
