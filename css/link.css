@@ -1,0 +1,343 @@
+
+
+/* wrap */
+
+.wrap {
+    width: 1210px;
+    height: 370px;
+    position: relative;
+    margin: 10px auto;
+}
+
+.wrap .left {
+    float: left;
+    /* width: 350px;
+    height: 350px; */
+    position: relative;
+}
+
+.wrap .leftT {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+}
+
+.left .mask {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: orange;
+    opacity: 0.4;
+    cursor: move;
+    display: none;
+}
+
+.maxBox {
+    position: absolute;
+    left: 352px;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.maxBox img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* mid */
+
+.wrap .mid {
+    width: 590px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 24px;
+}
+
+.mid .ope {
+    width: 590px;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.mid .tit {
+    width: 50px;
+    margin: 20px 5px;
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+
+.mid .list {
+    float: right;
+    width: 500px;
+}
+
+.mid .list li {
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    margin-left: 10px;
+    padding-right: 5px;
+    background-color: #F7F7F7;
+    border: 1px solid #ccc;
+}
+
+.mid .list li:hover {
+    border: 1px solid #C81623;
+    cursor: pointer;
+}
+
+.mid .list img {
+    float: left;
+}
+
+.mid .list span {
+    /* float: left; */
+    display: inline-block;
+    margin: 0 5px;
+    color: #666;
+}
+.tip{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+
+
+.mid .title {
+    width: 590px;
+    height: 66px;
+    color: #666666;
+    line-height: 33px;
+    font-weight: bold;
+}
+
+.mid .title span {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    background-color: #DD2D31;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+}
+
+.mid .intro {
+    color: #E4393C;
+    font-size: 12px;
+}
+
+.mid .yuyue {
+    background-color: #F3F3F3;
+}
+
+.mid .yuyue img {
+    width: 590px;
+}
+
+.mid .yuyue p {
+    height: 30px;
+    color: #999999;
+    padding-left: 3px;
+}
+
+.mid .yuyue .price span {
+    font-size: 20px;
+    margin: 0 15px;
+    color: #C81623;
+}
+
+.mid .yuyue .cuxiao span {
+    border: 1px solid #C81623;
+    width: 20px;
+    height: 10px;
+    color: #C81623;
+    margin: 0 10px;
+}
+
+.mid .yewu {
+    height: 32px;
+    line-height: 32px;
+}
+
+.mid .yewu span {
+    width: 60px;
+    height: 32px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 16px;
+    float: left;
+    line-height: 32px;
+}
+
+.mid .yewu img {
+    float: left;
+    width: 135px;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.mid .send {
+    height: 50px;
+    margin-top: 5px;
+    color: #999;
+}
+
+.mid .send span {
+    display: inline-block;
+    width: 170px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+}
+
+.mid .send span img {
+    width: 12px;
+    height: 8px;
+    margin-left: 10px;
+}
+
+.mid .send p {
+    margin-left: 55px;
+    height: 20px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.mid .send p a {
+    color: #C81623;
+    margin: 0 2px;
+}
+
+
+/* right */
+
+.wrap .right {
+    float: right;
+    width: 210px;
+    position: relative;
+}
+
+.wrap .right .tit {
+    width: 210px;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+}
+
+.wrap .right h3 {
+    position: relative;
+    padding: 0 25px;
+    z-index: 2;
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+}
+
+.wrap .right span {
+    width: 210px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    top: 15px;
+    left: 1px;
+    z-index: 1;
+}
+
+.wrap .main {
+    width: 150px;
+    height: 620px;
+    margin: 0 30px;
+}
+
+.wrap .content {
+    width: 6000px;
+    height: 620px;
+    overflow: hidden;
+}
+
+.wrap .right .list {
+    width: 150px;
+    height: 620px;
+    overflow: hidden;
+}
+
+.wrap .right li {
+    margin-top: 0;
+    margin-right: 0;
+    width: 150px;
+    padding: 10px 0;
+    
+}
+.wrap .right li img{
+    height: 150px;
+}
+.wrap .right div {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
+    font-size: 12px;
+}
+.wrap .right div:hover{
+    color: #C81623;
+}
+.wrap .right p {
+    width: 150px;
+    text-align: center;
+    color: #C81623;
+    font-size: 12px;
+}
+
+.wrap .right .pre {
+    width: 28px;
+    height: 15px;
+    position: absolute;
+    left: 60px;
+    bottom: -20px;
+}
+
+.wrap .right .next {
+    width: 28px;
+    height: 15px;
+    position: absolute;
+    right: 60px;
+    bottom: -20px;
+}
+
+
+/* tab */
+
+.tab {
+    width: 352px;
+}
+
+.tab img {
+    border: 2px solid #fff;
+}
+
+.tab img:hover {
+    border: 2px solid #e53e41;
+}
+
+.tab .turn {
+    width: 15px;
+    height: 32px;
+    padding-bottom: 10px;
+}

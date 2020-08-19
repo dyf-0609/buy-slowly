@@ -137,6 +137,7 @@
                             width: 190px;
                             line-height: 30px;
                             font-size: 14px;
+                            color: #5a5a5a;
                         }
                         .link{
                             position: absolute;
@@ -215,13 +216,21 @@
                             background-color: #f7f6f4;
                             line-height: 38px;
                             margin-top: 24px;
+                            color: #5a5a5a;
+                            
                             a{
                                 display: inline-block;
                                 line-height: 38px;
                                 padding:0 20px 0 16px ;
+                                color: #5a5a5a;
+                                position: relative;
                                 &:hover{
                                     text-decoration: underline;
                                     cursor: pointer;
+                                    color: #f27b04;
+                                    ul{
+                                        display: block;
+                                    }
                                 }
                                 img{
                                     width: 16px;
@@ -229,11 +238,38 @@
                                     margin-left: 6px;
                                     vertical-align: middle;
                                 }
+                                ul{
+                                    display: none;
+                                    width: 138px;
+                                    position: absolute;
+                                    padding: 5px 0;
+                                    left: 0px;top: 38px;
+                                    border-width: 0px 1px 1px 1px;
+                                    background-color: #fff;
+                                    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+                                    border-color: #f1f1f1 #f1f1f1 #dbdbdb #f1f1f1;
+                                    li{
+                                        margin: 0 18px;
+                                        font-size: 12px;
+                                        color: #5a5a5a;
+                                        line-height: 20px;
+                                        border-bottom: 1px dashed #ccc;
+                                        strong{
+                                            margin-left: 40px;
+                                        }
+                                        &:hover{
+                                            background-color: #f7f6f4;
+                                            color: #f27b04;
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
                             }
                             strong{
                                 color: #f27b04;
                                 font-weight: normal;
                             }
+                           
                         }
                     }
                 }

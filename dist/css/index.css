@@ -281,7 +281,8 @@ html body {
             box-shadow: 0 1px 5px 0 #e5e5e5;
             position: absolute;
             right: 0;
-            top: 0; }
+            top: 0;
+            z-index: 99; }
             .head .head-con .search .head-search .download .b-down img {
               width: 148px;
               height: 148px;

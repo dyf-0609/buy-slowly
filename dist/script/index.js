@@ -278,7 +278,6 @@ window.onscroll = function () {
     var hour = $1('.hour-list');
     var main = $1('.main');
     var sub=$1('.sub-nav');
-    var footer=$1('.footer');
     var mainHeight = main.offsetTop;
     var mainHeight1 = main.offsetHeight;
     var hourHeight = hour.offsetHeight;
