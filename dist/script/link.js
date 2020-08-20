@@ -1,4 +1,4 @@
-//放大镜
+//商品放大镜
 var left = document.querySelector('.wrap .leftT');
 var mask = document.querySelector('.mask');
 var maxBox = document.querySelector('.maxBox');
@@ -46,7 +46,7 @@ left.onmousemove = function(ev) {
     maxImg.style.top = -maxImgY + 'px';
 }
 
-//tap
+//小商品放大
 var  imgs = $2('.img1');
 var  midImg = $1('.midImg');
 var  maxImg = $1('.maxImg');
@@ -60,17 +60,16 @@ for (var  i = 0; i < 5; i++) {    
     })(i)
 } 
 
-// //right
+//right 轮播图
 var main = $1('.wrap .main .list')
 var content = $1('.wrap .content');
 var prev = $1('.pre');
 var next = $1('.next');
 var li = $2('.main .list li');
 var liHeight = li[0].clientHeight * 3;
-
 // 当前显示图片的下标
 var imgIndex = 0;
-
+//向后切换
 function moveNext() {
     // 下标递增
     imgIndex++;
@@ -82,7 +81,7 @@ function moveNext() {
     animate(main, { 'scrollTop': imgIndex * liHeight });
     console.log(imgIndex * liHeight);
 }
-
+//向前切换
 function movePrev() {
     // 图片切换
     imgIndex--;
@@ -94,21 +93,21 @@ function movePrev() {
 }
 // 点击下一页
 next.onclick = function() {
-        moveNext();
-    }
-    // 点击上一页
+    moveNext();
+}
+// 点击上一页
 prev.onclick = function() {
     movePrev();
-
 }
 
+//中间商品数据获取
 var show = $1('.show');
 var ope = $2('.ope .list li');
-console.log(ope);
+//console.log(ope);
 var mtitle = $1('.title p');
 var bk = $1('.bk');
 var cg = $1('.price span');
-console.log(mtitle);
+//console.log(mtitle);
 for (let index = 0; index < 9; index++) {
     (function(x) {
         ope[x].onclick = function() {

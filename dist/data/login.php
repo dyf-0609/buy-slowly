@@ -5,7 +5,7 @@ $type=$_REQUEST['type'];
 $user=$_REQUEST['user'];
 $pwd=$_REQUEST['pwd'];
 
-$link=mysqli_connect('localhost','root','123456','gp03');
+$link=mysqli_connect('47.94.232.14','dangdang','123456','dangdang');
 if(!$link){
     echo '{"err":0,"msg":"连接失败"}';
     die();

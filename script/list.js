@@ -36,7 +36,7 @@ $(function(){
     })
 })
 
-//轮播图
+//商品轮播图
 var mySwiper = new Swiper ('.swiper-containerbd', {
     //direction: 'vertical', // 垂直切换选项
     direction: 'horizontal',//水平
@@ -67,7 +67,7 @@ var mySwiper = new Swiper ('.swiper-containerbd', {
     //     disableOnInteraction: false,
     //     }, 
 }) 
-
+//轮播图按钮显示隐藏
 $('.swiper-containerbd').mouseenter(function(){
     $(this).find('.swiper-button-prev').show();
     $(this).find('.swiper-button-next').show();

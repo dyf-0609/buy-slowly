@@ -90,7 +90,7 @@ $(function () {
 })
 
 
-//轮播图
+//图片轮播图
 var mySwiper = new Swiper('.swiper-container', {
     //direction: 'vertical', // 垂直切换选项
     direction: 'horizontal', //水平
@@ -161,7 +161,7 @@ $(function () {
         }
     })
 })
-//轮播图
+//商品轮播图
 var mySwiper = new Swiper('.swiper-containerphb', {
     //direction: 'vertical', // 垂直切换选项
     direction: 'horizontal', //水平
@@ -273,7 +273,7 @@ totop.onclick = function () {
 }
 
 
-
+//小时榜悬停
 window.onscroll = function () {
     var hour = $1('.hour-list');
     var main = $1('.main');

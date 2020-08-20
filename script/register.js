@@ -60,7 +60,7 @@ totop.onclick = function (){
     },10);
 }
 
-
+//注册
 var user=document.querySelector('.user');
 var pwd=document.querySelector('.pwd');
 var add=document.querySelector('.reg-panel .btn');
@@ -74,34 +74,34 @@ add.onclick=function(){
         alert('手机号不符合');
         return false;
     }
-   
+    //数据请求
     ajax({
-       url:'../data/login.php',
-       type:'post',
-       data:{
-           type:'add',
-           user:user.value,
-           pwd:pwd.value
-       },
-       dataType:'json',
-       success:function(data){
-           var json=JSON.parse(data);
-           alert(json.msg);
-           if(json.err==3){
-            setCookie({
-                key:'username',
-                val:user.value,
-                days:7
-            });
-            setCookie({
-                key:'password',
-                val:pwd.value,
-                days:31
-            });
-             open('login.html','_self');
+        url:'../data/login.php',
+        type:'post',
+        data:{
+            type:'add',
+            user:user.value,
+            pwd:pwd.value
+        },
+        dataType:'json',
+        success:function(data){
+            var json=JSON.parse(data);
+            alert(json.msg);
+            if(json.err==3){
+                setCookie({
+                    key:'username',
+                    val:user.value,
+                    days:7
+                });
+                setCookie({
+                    key:'password',
+                    val:pwd.value,
+                    days:31
+                });
+            open('login.html','_self');
            }   
        },
-       error:function(status){
+        error:function(status){
         alert('提交失败');
        }
     });

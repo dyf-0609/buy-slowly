@@ -65,6 +65,7 @@ var pwd=$1('.pass');
 var login=$1('p .btn');
 var auto=$1('.check');
 var reg=/^(1|\+861)[3-8]{1}\d{9}$/;
+
 login.onclick=function(){
     if(!user.value||!pwd.value){
         alert('账号或密码不能为空！');
@@ -73,7 +74,7 @@ login.onclick=function(){
         alert('手机号不符合');
         return false;
     }
-    
+    //数据请求
     ajax({
         url:'../data/login.php',
         type:'post',
@@ -82,34 +83,32 @@ login.onclick=function(){
            user:user.value,
            pwd:pwd.value
        },
-       dataType:'json',
-       success:function(data){
-           var json=JSON.parse(data);
-           alert(json.msg);
-           if(json.err==1){
-            if(auto.checked){
-                setCookie({
-                    key:'username',
-                    val:user.value,
-                    days:31
-                });
-                setCookie({
-                    key:'password',
-                    val:pwd.value,
-                    days:31
-                });
-            }else{
-                removeCookie('username');
-                removeCookie('password');
-                user.value='';
-                pwd.value='';
-            }
-    
-               open('index.html','index_self');
+        dataType:'json',
+        success:function(data){
+            var json=JSON.parse(data);
+            alert(json.msg);
+            if(json.err==1){
+                if(auto.checked){
+                    setCookie({
+                        key:'username',
+                        val:user.value,
+                        days:31
+                    });
+                    setCookie({
+                        key:'password',
+                        val:pwd.value,
+                        days:31
+                    });
+                }else{
+                    removeCookie('username');
+                    removeCookie('password');
+                    user.value='';
+                    pwd.value='';
+                }
+            open('index.html','index_self');
            }
-           
-       },
-       error:function(status){
+        },
+        error:function(status){
         alert('登录失败');
        }
     });
