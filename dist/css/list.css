@@ -99,7 +99,7 @@
               display: block;
               width: 24px;
               margin-left: 8px;
-              margin-top: 5px; }
+              margin-top: 10px; }
             .main .main-con .hj-phb .hj-con .bd .bd-con ul {
               width: 980px;
               height: 885px;
@@ -186,10 +186,11 @@
               bottom: -30px; }
             .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-prev, .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-next {
               width: 40px;
-              height: 90px;
+              height: 65px;
               background-color: #000;
               opacity: 0.3;
-              margin-top: -45px; }
+              margin-top: -45px;
+              display: none; }
             .main .main-con .hj-phb .hj-con .bd .bd-con .swiper-button-prev {
               top: 50%;
               left: 0px; }

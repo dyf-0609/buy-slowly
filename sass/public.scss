@@ -1,3 +1,6 @@
+html body{
+    min-width: 1000px;
+}
 // top
 .top {
     width: 100%;
@@ -586,8 +589,9 @@
     width: 41px;
     height: 90px;
     position: fixed;
-    right: 120px;
+    right: 100px;
     bottom: 41px;
+    z-index: 101;
     .cb-top,.fk{
         width: 40px;
         height: 40px;

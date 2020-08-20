@@ -1,3 +1,41 @@
+// top
+$('.r1').mouseenter(function () {
+    $(this).find('.sjm').show();
+    $(this).find('.list').show();
+    $(this).find('.xia').hide();
+    $(this).find('.shang').show();
+})
+$('.r1').mouseleave(function () {
+    $(this).find('.sjm').hide();
+    $(this).find('.list').hide();
+    $(this).find('.shang').hide();
+    $(this).find('.xia').show();
+})
+
+
+//head
+$('.download').mouseover(function () {
+    $(this).find('.s-down').fadeOut();
+    $(this).find('.b-down').fadeIn();
+})
+$('.download').mouseleave(function () {
+    $(this).find('.b-down').fadeOut();
+    $(this).find('.s-down').fadeIn();
+})
+
+
+//nav
+$('.more').mouseenter(function () {
+    $(this).find('.xia').hide();
+    $(this).find('.shang').show();
+    $(this).find('.more-c').show();
+})
+$('.more').mouseleave(function () {
+    $(this).find('.xia').show();
+    $(this).find('.shang').hide();
+    $(this).find('.more-c').hide();
+})
+
 // 好价排行榜
 $('.menu-r').mouseover(function(){
     $(this).find('.r-list').slideDown(200); 

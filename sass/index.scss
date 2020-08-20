@@ -1,5 +1,5 @@
 html body{
-    min-width: 1000px;
+    min-width: 1190px;
 }
 // top
 .top {
@@ -1368,8 +1368,9 @@ html body{
     width: 41px;
     height: 90px;
     position: fixed;
-    right: 120px;
+    right: 100px;
     bottom: 41px;
+    z-index: 99;
     .cb-top,.fk{
         width: 40px;
         height: 40px;
