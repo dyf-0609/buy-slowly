@@ -472,12 +472,10 @@ html body {
           top: -87px; }
     .main .l-slide .fixed {
       position: fixed;
-      top: 0;
-      left: 165px; }
+      top: 0; }
     .main .l-slide .fixed1 {
       position: absolute;
-      bottom: 40px;
-      left: 165px; }
+      bottom: 40px; }
     .main .l-slide .hour-list {
       width: 234px;
       height: 520px;

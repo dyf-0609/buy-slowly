@@ -278,21 +278,30 @@ window.onscroll = function () {
     var hour = $1('.hour-list');
     var main = $1('.main');
     var sub=$1('.sub-nav');
+    var slide=$1('.l-slide');
     var mainHeight = main.offsetTop;
     var mainHeight1 = main.offsetHeight;
     var hourHeight = hour.offsetHeight;
     var subHeight = sub.offsetHeight;
+    var slideLeft=slide.offsetLeft;
+
     var st = document.body.scrollTop || document.documentElement.scrollTop;
 
     if(st>=subHeight+mainHeight+10){
-        console.log(subHeight+mainHeight+10);
-        console.log(mainHeight1+mainHeight-hourHeight*2);
+        //console.log(subHeight+mainHeight+10);
+        //console.log(mainHeight1+mainHeight-hourHeight*2);
+        
         if(st>=mainHeight1+mainHeight-hourHeight*2){
             $('.fixedList').removeClass('fixed');
+            
             $('.fixedList').addClass('fixed1');
+            var fixed1=$1('.fixed1');
+            fixed1.style.left=slide.left-11;
            
         }else{
             $('.fixedList').addClass('fixed');
+            var fixed=$1('.fixed');
+            fixed.style.left=slide.left-11;
             $('.fixedList').removeClass('fixed1');
         }
     }
