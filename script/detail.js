@@ -86,3 +86,25 @@ totop.onclick = function (){
         document.documentElement.scrollTop = st;
     },10);
 }
+ //国内折扣 最新优惠 显示隐藏
+var li=document.querySelectorAll('.zk-p-con li');
+//var pic=document.querySelectorAll('li .b-pic');
+// console.log(li);
+// console.log(pic);
+var timer=null;
+for(var i=0;i<li.length-1;i++){
+    li[i].index=i;
+    li[i].onmouseenter=function(){
+      clearTimeout(timer);
+      var _this=this;
+      timer=setTimeout(function(){
+          li[_this.index].children[1].style.display="block";
+        },600)
+        //console.log(li[this.index].children[1]);
+        //li[this.index].children[1].style.display="block";
+    }
+    li[i].onmouseleave=function(){
+        clearTimeout(timer);
+        li[this.index].children[1].style.display="none";
+    } 
+}

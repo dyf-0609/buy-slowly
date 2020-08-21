@@ -4,7 +4,7 @@
 
 .wrap {
     width: 1210px;
-    height: 370px;
+    overflow: hidden;
     position: relative;
     margin: 10px auto;
 }
@@ -340,4 +340,13 @@
     width: 15px;
     height: 32px;
     padding-bottom: 10px;
+}
+/* footer */
+.footer{
+    margin-top:50px ;
+    padding: 6px 0;
+    border-top: 1px solid #DDDDDD;
+}
+.foot-nav-con{
+    background-color: #FEFEFE;
 }

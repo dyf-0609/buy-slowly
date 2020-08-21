@@ -357,8 +357,6 @@
                 .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li:hover {
                   cursor: pointer;
                   color: #f27b04; }
-                  .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li:hover .b-pic {
-                    display: block; }
                 .goods-detail .detail .de-main .m-r .zk-pic .zk-p-con ul li img {
                   width: 70px;
                   height: 70px; }

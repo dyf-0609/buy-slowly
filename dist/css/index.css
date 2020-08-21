@@ -382,8 +382,7 @@ html body {
       width: 234px;
       height: 540px;
       padding: 5px 0;
-      background-color: #fff;
-      overflow: hidden; }
+      background-color: #fff; }
       .main .l-slide .sub-nav li {
         width: 204px;
         padding: 0 15px;
@@ -391,8 +390,7 @@ html body {
         line-height: 45px;
         font-size: 16px;
         color: #333333;
-        position: relative;
-        z-index: 999; }
+        position: relative; }
         .main .l-slide .sub-nav li .tubiao {
           width: 26px;
           height: 24px;
@@ -409,6 +407,7 @@ html body {
           color: #ff5100;
           cursor: pointer; }
         .main .l-slide .sub-nav li div {
+          z-index: 999;
           width: 540px;
           padding: 10px;
           background-color: #fff;
@@ -747,7 +746,7 @@ html body {
           width: 925px;
           position: relative; }
           .main .r-slide .phb .bd .goods-box .temp-wrap {
-            width: 10000px;
+            width: 925px;
             overflow: hidden; }
             .main .r-slide .phb .bd .goods-box .temp-wrap:hover .swiper-button-next::after, .main .r-slide .phb .bd .goods-box .temp-wrap:hover .swiper-button-prev::after {
               display: block;
